@@ -1,8 +1,9 @@
-+++
-title = 'Test'
-date = 2024-07-03T22:34:09+02:00
-draft = true
-+++
+---
+title: Test post
+subtitle: Subtitle of test post
+date: 2024-04-01
+tags: ["example", "test"]
+---
 
 
 This is a test website
