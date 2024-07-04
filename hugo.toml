@@ -10,7 +10,7 @@ pygmentsUseClasses = true
   subtitle = "Build a beautiful and simple website in minutes"
   mainSections = ["post","posts"]
   logo = "img/logo.png" # Expecting square dimensions
-  favicon = "img/favicon2.png"
+  favicon = "img/favicon.png"
   dateFormat = "January 2, 2006"
   commit = false
   comments = true
@@ -30,6 +30,20 @@ pygmentsUseClasses = true
   github = "hydr0nium"
   twitter = "hydr0nium_"
   mastodon = "https://infosec.exchange/@hydr0nium"
+  
+  
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+		  
+		  
+[params]
+  math = true
 
 [[menu.main]]
     name = "Blog"
@@ -47,3 +61,5 @@ pygmentsUseClasses = true
     name = "Tags"
     url = "tags"
     weight = 3
+	
+
