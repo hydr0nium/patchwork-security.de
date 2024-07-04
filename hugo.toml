@@ -1,4 +1,4 @@
-baseURL = 'http://localhost'
+baseURL = 'https://patchwork-security.de'
 languageCode = 'en-us'
 title = 'Patchwork Security'
 theme = 'beautifulhugo'
