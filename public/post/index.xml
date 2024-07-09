@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Patchwork Security</title>
-    <link>https://patchwork-security.de/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Patchwork Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://patchwork-security.de/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test post</title>
-      <link>https://patchwork-security.de/post/test/</link>
-      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://patchwork-security.de/post/test/</guid>
-      <description>This is a test website&#xA;fn main() -&amp;gt; () { let _s = String::from(&amp;#34;This is some test rust code&amp;#34;); } ​​&#xA;$$ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } } $$ </description>
+      <title>Advent of Code 2023</title>
+      <link>http://localhost:1313/post/advent-of-code-2023/trebuchet/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/advent-of-code-2023/trebuchet/</guid>
+      <description>Today we are talking about the first challenge in the advent of code of 2023. I know I am late but I thought that now that I am learning the rust programming language the advent of code challenges would be a nice way of improving and learning it. The first challenge is called trebuchet?! and the goal is to extract the first and last number from a line, to concatenate them and convert them to a number.</description>
     </item>
   </channel>
 </rss>
