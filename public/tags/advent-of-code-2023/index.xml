@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Advent-of-Code-2023 on Patchwork Security</title>
-    <link>http://localhost:1313/tags/advent-of-code-2023/</link>
+    <link>https://patchwork-security.de/tags/advent-of-code-2023/</link>
     <description>Recent content in Advent-of-Code-2023 on Patchwork Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/advent-of-code-2023/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://patchwork-security.de/tags/advent-of-code-2023/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advent of Code 2023</title>
-      <link>http://localhost:1313/post/advent-of-code-2023/trebuchet/</link>
+      <link>https://patchwork-security.de/post/advent-of-code-2023/trebuchet/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/advent-of-code-2023/trebuchet/</guid>
-      <description>Today we are talking about the first challenge in the advent of code of 2023. I know I am late but I thought that now that I am learning the rust programming language the advent of code challenges would be a nice way of improving and learning it. The first challenge is called trebuchet?! and the goal is to extract the first and last number from a line, to concatenate them and convert them to a number.</description>
+      <guid>https://patchwork-security.de/post/advent-of-code-2023/trebuchet/</guid>
+      <description>Today we are talking about the first challenge in the advent of code of 2023. I know I am late but I thought that now that I am learning the rust programming language the advent of code challenges would be a nice way of improving and learning it.&#xA;Part 1 The first challenge is called trebuchet?! and the goal is to extract the first and last number from a line, to concatenate them and convert them to a number.</description>
     </item>
   </channel>
 </rss>
