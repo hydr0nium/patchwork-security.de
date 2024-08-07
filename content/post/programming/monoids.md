@@ -240,5 +240,4 @@ There is much more you could do with foldMap / map-reduce but I think this gives
 [^2]: A binary relation can be also be defined as a subset (R) of the set of tuples of the underlying set (S). $$R \subseteq S^2$$ We usually write x R y if x and y are in a relationship.
 [^3]: The fact that this special element is unique is easy to proof: $$\text{Let } e' \text{ and } e \text{ both be neutral elements with the + operation:} \\ e'+e=e'=e+e'=e \\ \implies e'=e$$
 [^4]: We aren't necessarily talking about lists in the programming sense but you can think of them as such. A more abstract way of thinking about them would be a n-tuple or ordered set.
-
-[^5] Ints can overflow but they still qualify as a monoid.
+[^5]: Ints can overflow but they still qualify as a monoid.

@@ -62,7 +62,7 @@
   "headline": "What is a Monoid?",
   "description" : "What is a Monoid? When talking about monoids its important to first understand what it means to be a monoid. A monoid, mathematically speaking is a structure with a binary operation, that has a neutral or identity element, is closed, and obeys the law of associativity, but that definition without any context is not easy to understand. For example:\nWhat is a binary operation? What does closed mean? What is a identity \/ neutral element?",
   "inLanguage" : "en",
-  "wordCount":  1545 ,
+  "wordCount":  1544 ,
   "datePublished" : "2024-07-24T00:00:00\u002b00:00",
   "dateModified" : "2024-07-24T00:00:00\u002b00:00",
   "image" : "https:\/\/patchwork-security.de\/img\/logo.png",
@@ -251,7 +251,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;8&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1545&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1544&nbsp;words
   
   
     
@@ -344,14 +344,14 @@
 <ul>
 <li>Natural Numbers with addition and multiplication</li>
 <li>Strings with concatenation</li>
-<li>Ints[^5] with addition and multiplication</li>
+<li>Ints<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> with addition and multiplication</li>
 <li>Lists with concatenation</li>
 <li>&hellip;</li>
 </ul>
 <h2 id="9-why-do-we-care-about-monoids">9. Why do we care about monoids?</h2>
 <p>You might be wondering why we go all about the definition of monoids. Monoids are maybe special for mathematicians but for programmers they are especially interesting. Why? Because they allow us to do magic:</p>
 <h3 id="91-the-folder-or-reducer">9.1 <code>The Folder or Reducer</code></h3>
-<p>Let&rsquo;s say we have a list<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> of elements of a monoid. As an example we will take the set of natural numbers again with the operation of addition. Now associativity allows use a special feature namely that of the reduction of that list:</p>
+<p>Let&rsquo;s say we have a list<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> of elements of a monoid. As an example we will take the set of natural numbers again with the operation of addition. Now associativity allows use a special feature namely that of the reduction of that list:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">reduce</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">10</span><span class="p">])</span>
 </span></span></code></pre></div><p>What the reduction does is to put a binary operation between all the elements and evaluate it as such:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="mi">1</span><span class="o">+</span><span class="mi">2</span><span class="o">+</span><span class="mi">3</span><span class="o">+</span><span class="mi">4</span><span class="o">+</span><span class="mi">5</span><span class="o">+</span><span class="mi">6</span><span class="o">+</span><span class="mi">7</span><span class="o">+</span><span class="mi">8</span><span class="o">+</span><span class="mi">9</span><span class="o">+</span><span class="mi">10</span> <span class="o">-&gt;</span> <span class="mi">55</span>
@@ -407,7 +407,6 @@
 </span></span><span class="line"><span class="cl"><span class="n">filter_map</span><span class="p">(</span><span class="n">some_list</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span> <span class="o">=</span> <span class="n">map_reduce</span><span class="p">(</span><span class="n">some_list</span><span class="p">,</span> <span class="nb">filter</span><span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">f</span><span class="p">),</span> <span class="o">+</span><span class="p">,</span> <span class="p">[])</span>
 </span></span></code></pre></div><p>There is much more you could do with foldMap / map-reduce but I think this gives you a good overview on how powerful monoids can be.</p>
 <h3 id="footnotes">Footnotes:</h3>
-<p>[^5] Ints can overflow but they still qualify as a monoid.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -424,7 +423,10 @@ $$R \subseteq S^2$$
 $$\text{Let } e' \text{ and } e \text{ both be neutral elements with the + operation:} \\ e'+e=e'=e+e'=e \\ \implies e'=e$$
 &#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
 <li id="fn:4">
-<p>We aren&rsquo;t necessarily talking about lists in the programming sense but you can think of them as such. A more abstract way of thinking about them would be a n-tuple or ordered set.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Ints can overflow but they still qualify as a monoid.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>We aren&rsquo;t necessarily talking about lists in the programming sense but you can think of them as such. A more abstract way of thinking about them would be a n-tuple or ordered set.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
