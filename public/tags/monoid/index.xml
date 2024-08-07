@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Patchwork Security</title>
-    <link>https://patchwork-security.de/</link>
-    <description>Recent content on Patchwork Security</description>
+    <title>Monoid on Patchwork Security</title>
+    <link>https://patchwork-security.de/tags/monoid/</link>
+    <description>Recent content in Monoid on Patchwork Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://patchwork-security.de/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://patchwork-security.de/tags/monoid/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is a Monoid?</title>
       <link>https://patchwork-security.de/post/programming/monoids/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://patchwork-security.de/post/programming/monoids/</guid>
       <description>What is a Monoid? When talking about monoids its important to first understand what it means to be a monoid. A monoid, mathematically speaking is a structure with a binary operation, that has a neutral or identity element, is closed, and obeys the law of associativity, but that definition without any context is not easy to understand. For example:&#xA;What is a binary operation? What does closed mean? What is a identity / neutral element?</description>
-    </item>
-    <item>
-      <title>Advent of Code 2023</title>
-      <link>https://patchwork-security.de/post/advent-of-code-2023/trebuchet/</link>
-      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://patchwork-security.de/post/advent-of-code-2023/trebuchet/</guid>
-      <description>Today we are talking about the first challenge in the advent of code of 2023. I know I am late but I thought that now that I am learning the rust programming language the advent of code challenges would be a nice way of improving and learning it.&#xA;Part 1 The first challenge is called trebuchet?! and the goal is to extract the first and last number from a line, to concatenate them and convert them to a number.</description>
     </item>
   </channel>
 </rss>

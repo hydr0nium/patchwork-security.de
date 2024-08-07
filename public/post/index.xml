@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Patchwork Security</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://patchwork-security.de/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is a Monoid?</title>
+      <link>https://patchwork-security.de/post/programming/monoids/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://patchwork-security.de/post/programming/monoids/</guid>
+      <description>What is a Monoid? When talking about monoids its important to first understand what it means to be a monoid. A monoid, mathematically speaking is a structure with a binary operation, that has a neutral or identity element, is closed, and obeys the law of associativity, but that definition without any context is not easy to understand. For example:&#xA;What is a binary operation? What does closed mean? What is a identity / neutral element?</description>
+    </item>
     <item>
       <title>Advent of Code 2023</title>
       <link>https://patchwork-security.de/post/advent-of-code-2023/trebuchet/</link>
