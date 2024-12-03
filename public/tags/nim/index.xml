@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nim on Patchwork Security</title>
+    <link>https://patchwork-security.de/tags/nim/</link>
+    <description>Recent content in Nim on Patchwork Security</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://patchwork-security.de/tags/nim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent of Code 2024</title>
+      <link>https://patchwork-security.de/post/advent-of-code-2024/day1/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://patchwork-security.de/post/advent-of-code-2024/day1/</guid>
+      <description>As most years I try to do the advent of code challenges. Sadly I haven&amp;rsquo;t posted anything except the first day last year. Although this, this years language will be nim. Nim is a &amp;ldquo;statically typed compiled systems programming language&amp;rdquo;. Nim can be thought of as Python but compiled. There are some quicks here and there but overall the language is fully functional. Some problems the language currently faces is that there a people who write malware with it, as it is easy to code with and can cross-compile.</description>
+    </item>
+  </channel>
+</rss>

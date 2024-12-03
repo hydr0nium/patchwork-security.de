@@ -3,7 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://patchwork-security.de/</loc>
-    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://patchwork-security.de/post/advent-of-code-2024/day1/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://patchwork-security.de/tags/advent-of-code/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://patchwork-security.de/tags/advent-of-code-2024/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://patchwork-security.de/tags/nim/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://patchwork-security.de/post/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://patchwork-security.de/tags/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://patchwork-security.de/tags/category-theory/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
@@ -11,13 +29,7 @@
     <loc>https://patchwork-security.de/tags/monoid/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://patchwork-security.de/post/</loc>
-    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://patchwork-security.de/tags/programming/</loc>
-    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://patchwork-security.de/tags/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://patchwork-security.de/post/programming/monoids/</loc>
@@ -31,6 +43,10 @@
   </url><url>
     <loc>https://patchwork-security.de/tags/rust/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://patchwork-security.de/post/advent-of-code-2024/day2/</loc>
+  </url><url>
+    <loc>https://patchwork-security.de/post/advent-of-code-2024/day3/</loc>
   </url><url>
     <loc>https://patchwork-security.de/categories/</loc>
   </url>

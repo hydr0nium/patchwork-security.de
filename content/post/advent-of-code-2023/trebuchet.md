@@ -3,7 +3,7 @@ title: Advent of Code 2023
 subtitle: Day 1 - Trebuchet?!
 author: sol
 date: 2024-07-09
-tags: ["advent-of-code-2023", "rust"]
+tags: ["advent-of-code", "advent-of-code-2023", "rust"]
 ---
 
 Today we are talking about the first challenge in the advent of code of 2023.
