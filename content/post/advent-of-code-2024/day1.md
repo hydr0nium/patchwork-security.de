@@ -144,4 +144,4 @@ echo "Sum is: ", sum
 ```
 
 And that is how you solve day 1 of advent of code using nim. Probably not the
-best solution, but hey I am just learning. Happy first advent.
+best solution, but hey I am still learning. Happy first advent.
