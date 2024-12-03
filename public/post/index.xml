@@ -29,19 +29,5 @@
       <guid>https://patchwork-security.de/post/advent-of-code-2023/trebuchet/</guid>
       <description>Today we are talking about the first challenge in the advent of code of 2023. I know I am late but I thought that now that I am learning the rust programming language the advent of code challenges would be a nice way of improving and learning it.&#xA;Part 1 The first challenge is called trebuchet?! and the goal is to extract the first and last number from a line, to concatenate them and convert them to a number.</description>
     </item>
-    <item>
-      <title></title>
-      <link>https://patchwork-security.de/post/advent-of-code-2024/day2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://patchwork-security.de/post/advent-of-code-2024/day2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://patchwork-security.de/post/advent-of-code-2024/day3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://patchwork-security.de/post/advent-of-code-2024/day3/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
