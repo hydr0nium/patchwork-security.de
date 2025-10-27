@@ -1,6 +1,20 @@
 +++
 title = "Home"
 paginate_by = 5
+
+[extra]
+framed = true
+
 +++
-Patchwork Security is a hobby project by me. A 25 years old cybersecurity expert. I just recently finished my bachelors degree.
-I will focus on content such a programming, security and basically anything I find interesting to post.
+
+# $ whoami
+Hey welcome to my page. I usually go by the name of `sol` and I am a pentester from Germany. I love programming and hacking into stuff and in my freetime I play CTFs. I am also part of a CTF group called `saarsec` which is one of the biggest German teams.
+
+# $ groups
+
+saarsec
+
+# $ ls -l .
+dr--r--r-- [advent-of-code](/advent-of-code/)<br/>
+dr--r--r-- [ctf](/ctf/) <br/>
+dr--r--r-- [programming](/programming/)
