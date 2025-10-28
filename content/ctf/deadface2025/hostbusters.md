@@ -636,8 +636,8 @@ udp        0      0 0.0.0.0:37514           0.0.0.0:*                           
 There is one UDP port, but if we connect to it via nc we don't get anything back
 and when we quit we only get this: `punt!`. But we also see that we might not
 have the full picture because as it says `can't scan /proc - are you root?`. We
-are not root see every listening port. Let's try listing what processes are
-running:
+are not root thus we don't see every listening port. Let's try listing what
+processes are running:
 
 ```sh,name=ps aux
 PID   USER     TIME  COMMAND
