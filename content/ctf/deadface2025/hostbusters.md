@@ -1024,11 +1024,15 @@ I copied (again) only a bit of the output. But we can just use this copy all
 
 `cat img.base64 | base64 -d | img.jpg`
 
+<center>
 ![](../flag.jpg)
+</center>
 
 And thus we get the last flag:
 
 `deadface{hostbusters8_70139688d8cead3}`
+
+---
 
 <center>
     <h1>Closing Thoughts<h1>
