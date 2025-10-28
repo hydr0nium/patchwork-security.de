@@ -627,8 +627,8 @@ Proto Recv-Q Send-Q Local Address           Foreign Address         State       
 udp        0      0 0.0.0.0:37514           0.0.0.0:*                           -
 ```
 
-There is one UDP port, but if we connect to it via we don't get anything back
-and when we quick we get only this: `punt!`. But we also see that we might not
+There is one UDP port, but if we connect to it via nc we don't get anything back
+and when we quit we only get this: `punt!`. But we also see that we might not
 have the full picture because as it says `can't scan /proc - are you root?`. We
 are not root see every listening port. Let's try listing what processes are
 running:
