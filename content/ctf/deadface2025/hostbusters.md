@@ -509,11 +509,13 @@ base64  decrypt  encrypt  forensics  hash  help  quit  recon
 
 Let's play around with some:
 ```sh,name=base64 encode test
+(deephax)>base64 encode test
 dGVzdA==
 (deephax)>
 ```
 
 ```sh,name=base64 decode dGVzdA==
+(deephax)>base64 decode dGVzdA==
 test
 (deephax)>
 ```
@@ -522,21 +524,25 @@ Ok, so we can base64 encode and decode strings. What else looks interesting?
 What about `recon` and `forensics`
 
 ```sh,name=recon
+(deephax)>recon
 yo i need an IP 😑
 (deephax)>
 ```
 
-```sh,recon 127.0.0.1
+```sh,name=recon 127.0.0.1
+(deephax)>recon 127.0.0.1
 nmap ain't even installed??? WACK.
 (deephax)>
 ```
 
-```sh,forensics
+```sh,name=forensics
+(deephax)>forensics
 what file u want me 2 peek at? 👀
 (deephax)>
 ```
 
-```sh,forensics /etc/passwd
+```sh,name=forensics /etc/passwd
+(deephax)>forensics /etc/passwd
 Traceback (most recent call last):
   File "/usr/local/bin/pen-console.py", line 102, in <module>
     DeephaxConsole().cmdloop()
