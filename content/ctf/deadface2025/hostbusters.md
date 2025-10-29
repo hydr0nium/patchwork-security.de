@@ -996,7 +996,7 @@ sudo wget --use-askpass=$TF 0 # Runn the command
 ```
 
 The `1>&0` just redirects stdout to stdin. I am not exactly sure why this is 
-done but I know if we don't do it we can't see the output of our commands. I
+done but I know if we don't do it we can't see the output of our commands. It
 probably has something to do with how wget interacts with stdin and stdout.
 {% end %}
 
@@ -1025,13 +1025,13 @@ g7M1EgABAwEFBQYEBQMEAwAAAAABABEhAhAgUDFBMFFhcRJAYKGxIgOBkcHRcPDhMhPxUiOAQnKC
 ...
 ```
 
-I copied (again) only a bit of the output. But we can just use this copy all
-, put it into a file and then convert it back to binary:
+I copied (again) only a bit of the output. But we can just use this, copy all, 
+put it into a file and then convert it back to binary:
 
 `cat img.base64 | base64 -d | img.jpg`
 
 <center>
-![](../flag.jpg)
+<img src="../flag.jpg" alt="Picture of a whiteboard with the flag on it">
 </center>
 
 And thus we get the last flag:
