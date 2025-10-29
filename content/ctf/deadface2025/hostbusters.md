@@ -987,9 +987,9 @@ We could technically use `/bin/sh` as the command but `--use-askpass` passes
 parameter on the commandline which break the shell spawing. Thus we create a
 file with our shell spawning command and then give this script as the askpass
 command. This consumes all parameters and throws them away. The rest is just 
-fluff to make it the file in a tempfile:
-``sh
-TF=$(mktemp) # Make temporary file
+fluff to make the file a tempfile:
+```sh
+TF=$(mktemp) # Make a temporary file
 chmod +x $TF # Make the file executable
 echo -e '#!/bin/sh\n/bin/sh 1>&0' >$TF # Put our shell spawning command in it
 sudo wget --use-askpass=$TF 0 # Runn the command
